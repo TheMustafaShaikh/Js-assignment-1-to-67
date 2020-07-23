@@ -1,0 +1,11 @@
+var table = 5;
+document.write(" The table of 5: " + table * 1 + "<br/>");
+document.write(" The table of 5: " + table * 2 + "<br/>");
+document.write(" The table of 5: " + table * 3 + "<br/>");
+document.write(" The table of 5: " + table * 4 + "<br/>");
+document.write(" The table of 5: " + table * 5 + "<br/>");
+document.write(" The table of 5: " + table * 6 + "<br/>");
+document.write(" The table of 5: " + table * 7 + "<br/>");
+document.write(" The table of 5: " + table * 8 + "<br/>");
+document.write(" The table of 5: " + table * 9 + "<br/>");
+document.write(" The table of 5: " + table * 10 + "<br/>");

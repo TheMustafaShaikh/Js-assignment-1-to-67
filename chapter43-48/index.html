@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="color:blue">Mobile phones Lookup</h1>
+    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR1dKJ_u4WwXRphNucJYZrSlOqYNhFr0RcOXw&usqp=CAU' width='100' onclick='callFtn()' />
+    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR1dKJ_u4WwXRphNucJYZrSlOqYNhFr0RcOXw&usqp=CAU' width='100' onclick='callFtn()' />
+    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR1dKJ_u4WwXRphNucJYZrSlOqYNhFr0RcOXw&usqp=CAU' width='100' onclick='callFtn()' />
+
+    <table>
+        <thead>
+
+            <td>index</td>
+            <td>name</td>
+            <td>class</td>
+            <td>delete</td>
+
+        </thead>
+        <tbody id="bodyTab">
+
+        </tbody>
+
+    </table>
+
+    <img id="picture" src="https://i.ytimg.com/vi/Si_MxC_Cms8/maxresdefault.jpg" width="400" onmouseover="changeSrc('https://i.ytimg.com/vi/gxkq8t622Iw/maxresdefault.jpg')" onmouseout="changeSrc('https://i.ytimg.com/vi/Si_MxC_Cms8/maxresdefault.jpg')">
+    <br/>
+    <button onclick="increase()"> increase</button>
+    <button onclick="decrease()"> decrease</button>
+    <h1 id="counter">0</h1>
+    <script src="app.js"></script>
+</body>
+
+</html>

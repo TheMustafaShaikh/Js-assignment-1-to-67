@@ -1,0 +1,1 @@
+var var1 = "this is one";var var2 = "This is second";var var3 = "this is third";

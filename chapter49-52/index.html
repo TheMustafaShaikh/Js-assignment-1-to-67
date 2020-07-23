@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <input type="text" id="name">
+        <input type="password" id="password">
+        <input type="button" id="btn" onclick="showDetails()" value="submit">
+    </form>
+
+    <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <a href="" onclick="showMore(event)">read more</a>
+    </p>
+
+    <table>
+        <thead>
+
+            <td>index</td>
+            <td>name</td>
+            <td>class</td>
+            <td>delete</td>
+            <td>edit
+            </td>
+
+        </thead>
+        <tbody id="bodyTab">
+
+        </tbody>
+
+    </table>
+    <form id="formedit" style="display:none;">
+
+    </form>
+
+    <script src="app.js "></script>
+</body>
+
+</html>

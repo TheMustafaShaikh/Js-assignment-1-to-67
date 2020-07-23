@@ -1,0 +1,1 @@
+var mix_array = [1, "Mustafa", 2, "Babar"];

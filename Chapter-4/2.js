@@ -1,0 +1,12 @@
+//legal ways.
+var Var1;
+var $var2;
+var var_3;
+var _varFour;
+var VarFive;
+//illegal way
+var %var1;
+var 1var2;
+var &var3;
+var variable-4;
+var +variable;

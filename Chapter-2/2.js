@@ -1,0 +1,1 @@
+var myName = "Ghulam Mustafa Shaikh";

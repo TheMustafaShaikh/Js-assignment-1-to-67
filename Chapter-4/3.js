@@ -1,0 +1,1 @@
+document.write("a)  A heading stating Rules for naming JS variables <br /> b)  Variable names can only contain ,number,$ and _ . For example $my_1stVariable <br/> c) Variables must begin with a , $ or _ . For example $name, _name or name <br/>d) Variable names are case sensitive e) Variable names should not be JS Keywords ");
